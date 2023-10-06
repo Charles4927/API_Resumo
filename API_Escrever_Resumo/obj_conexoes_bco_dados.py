@@ -16,14 +16,14 @@ class Conexoes_SQL():
                 database='cdtmes',
             )
 
-        if self.database == "devpcp":
-            conexao = mysql.connector.connect(
-                host='192.168.254.83',
-                # host='177.47.167.82',
-                user='DEVELOPP',
-                password='dev@2023',
-                database='devpcp',
-            )
+        # if self.database == "devpcp":
+        #     conexao = mysql.connector.connect(
+        #         host='192.168.254.83',
+        #         # host='177.47.167.82',
+        #         user='DEVELOPP',
+        #         password='dev@2023',
+        #         database='devpcp',
+        #     )
 
         return conexao
 
